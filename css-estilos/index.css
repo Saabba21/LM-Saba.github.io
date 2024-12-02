@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    min-height: 10vh;
+    max-height: 20vh;
+    justify-content: space-evenly;
+    
+}
+
+img{
+    display: flex;
+    min-height: 120px;
+    max-height: 150px;
+    flex-direction: row;
+    justify-content: right;
+}
+form{
+    min-height: 10vh;
+    min-width: auto;
+    
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
