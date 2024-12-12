@@ -91,12 +91,14 @@ nav ul{
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
+/* Lo del tooltip no me salía y lo tuve que buscar en chatgpt y 
+aún así no me funciona */
 .tooltip-btn:hover {
     background-color: #45a049;
 }
 
-
+/* Lo del tooltip no me salía y lo tuve que buscar en chatgpt y 
+aún así no me funciona */
 .tooltip {
     position: absolute;
     bottom: 120%; 
@@ -113,8 +115,12 @@ nav ul{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-
+/* Lo del tooltip no me salía y lo tuve que buscar en chatgpt y 
+aún así no me funciona */
 .tooltip-btn:hover + .tooltip {
     visibility: visible;
     opacity: 1;
+    
 }
+/* Lo del tooltip no me salía y lo tuve que buscar en chatgpt y 
+aún así no me funciona */
