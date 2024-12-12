@@ -1,7 +1,15 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
 header{
     display: flex;
+    justify-content: space-between;
     min-height: 10vh;
     max-height: 20vh;
+    width: auto;
     border: 1px solid burlywood;
     padding: .5em;
     margin: .5em;
@@ -11,11 +19,11 @@ img{
     display: flex;
     min-height: 120px;
     max-height: 150px;
-    flex-direction: row;
+    
     justify-content: left;
 }
 aside{
-    min-height: 10vh;
+    min-height: 20vh;
     min-width: auto; 
     display: flex;
     border: 1px solid brown;
@@ -30,6 +38,7 @@ footer{
     border: .5px solid saddlebrown;
     padding: .5em;
     margin: .5em;
+    min-height: 5vh;
     
     
 }
@@ -44,11 +53,17 @@ article{
     padding: .5em;
     margin: .5em;
     display: flex;
-    min-height: 10vh;
+    min-height: 67vh;
   }
 section{
+    min-height: 50vh;
     display: flex;
     justify-content: space-between;
 }
-
-
+nav ul{
+    width: 85vw;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    min-height: 3vh;
+}
