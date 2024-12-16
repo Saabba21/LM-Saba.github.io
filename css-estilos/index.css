@@ -24,20 +24,23 @@ img{
     display: flex;
     min-height: 120px;
     max-height: 150px;
-    
     justify-content: left;
 }
 aside{
+    
     min-height: 20vh;
-    min-width: 10vw; 
-    max-width: 15vw;
     display: flex;
-    
+    flex-grow: 1;
     padding: .5em;
-    margin: .5em;
-    
+     
+}
 
-    
+
+section{
+    display: flex;
+    flex-grow: 3;
+    min-height: 60vh;
+
 }
 footer{
     display: flex;
@@ -47,6 +50,7 @@ footer{
     padding: .5em;
     margin: .5em;
     min-height: 5vh;
+    max-height: 5vh;
     
     
 }
@@ -63,17 +67,18 @@ article{
     margin: .5em;
     display: flex;
     min-height: 67vh;
-    max-width: 85vw;
+    
   }
 main{
-    min-height: 50vh;
+    min-height: 70vh;
     display: flex;
     justify-content: space-between;
+    flex-grow: 3;
 }
 nav ul{
     
-    width: 100vw;
     display: flex;
+    flex-grow: 3;
     list-style: none;
     justify-content: space-around;
     min-height: 3vh;
@@ -81,15 +86,8 @@ nav ul{
     
 }
 .tooltip-btn {
-    position: relative;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    
+    
 }
 /* Lo del tooltip no me salía y lo tuve que buscar en chatgpt y 
 aún así no me funciona */
@@ -100,19 +98,7 @@ aún así no me funciona */
 /* Lo del tooltip no me salía y lo tuve que buscar en chatgpt y 
 aún así no me funciona */
 .tooltip {
-    position: absolute;
-    bottom: 120%; 
-    left: 50%;
-    transform: translateX(-50%);
-    background: linear-gradient(135deg, #ff7e5f, #feb47b); 
-    color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    visibility: hidden; 
-    opacity: 0;
-    transition: visibility 0.3s, opacity 0.3s ease-in-out;
-    z-index: 1;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   ;
 }
 
 /* Lo del tooltip no me salía y lo tuve que buscar en chatgpt y 
