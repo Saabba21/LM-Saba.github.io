@@ -1,23 +1,26 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    background-color: antiquewhite;
+    
+
     
 }
-h1
-{
-    background-color: burlywood;
-}
+
 header{
     display: flex;
     justify-content: space-between;
     min-height: 10vh;
     max-height: 20vh;
     width: auto;
-    
+    align-items: center;
     padding: .5em;
     margin: .5em;
-    background-color: burlywood;
+    background: rgb(75,69,167);
+background: linear-gradient(328deg, rgba(75,69,167,1) 0%, rgba(255,255,255,1) 56%, rgba(31,121,139,1) 100%);;
+}
+span{
+    display: flex;
+    justify-content: center;
 }
 
 img{
@@ -27,7 +30,8 @@ img{
     justify-content: left;
 }
 aside{
-    
+    background: rgb(75,69,167);
+background: linear-gradient(328deg, rgba(75,69,167,1) 0%, rgba(255,255,255,1) 56%, rgba(31,121,139,1) 100%);
     min-height: 20vh;
     display: flex;
     flex-grow: 1;
@@ -40,17 +44,20 @@ section{
     display: flex;
     flex-grow: 3;
     min-height: 60vh;
+    
 
 }
 footer{
     display: flex;
     flex-direction: row;
     justify-content:right;
-    background-color: rgba(114, 56, 14, 0.322);
+    background: rgb(75,69,167);
+background: linear-gradient(328deg, rgba(75,69,167,1) 0%, rgba(255,255,255,1) 56%, rgba(31,121,139,1) 100%);
     padding: .5em;
     margin: .5em;
     min-height: 5vh;
     max-height: 5vh;
+    
     
     
 }
@@ -61,8 +68,9 @@ html {
   }
 
 article{
-    background-color: #6b1c0970;
     
+    background: rgb(75,69,167);
+background: linear-gradient(328deg, rgba(75,69,167,1) 0%, rgba(255,255,255,1) 56%, rgba(31,121,139,1) 100%);
     padding: .5em;
     margin: .5em;
     display: flex;
@@ -77,36 +85,40 @@ main{
 }
 nav ul{
     
+    background-color: white;
     display: flex;
     flex-grow: 3;
     list-style: none;
     justify-content: space-around;
     min-height: 3vh;
+      
+}
+nav ul li a{
+    text-decoration-line:none;
+    color:rgb(110, 34, 180);
+}
+button{
+    background: rgb(75,69,167);
+background: linear-gradient(328deg, rgba(75,69,167,1) 0%, rgba(255,255,255,1) 56%, rgba(31,121,139,1) 100%);
+    font-size: 1em;
+    height: 30px;
+}
+.tooltip{
+    position: relative;
+    display: inline-block;
     
     
 }
-.tooltip-btn {
+.tooltiptext{
+    background-color:rgb(211, 234, 253);
+    text-align: center;
+    width: 120px;
+    padding: .2em;
+    border-radius: 8px;
+    visibility: hidden;
     
-    
 }
-/* Lo del tooltip no me salía y lo tuve que buscar en chatgpt y 
-aún así no me funciona */
-.tooltip-btn:hover {
-    background-color: #45a049;
-}
-
-/* Lo del tooltip no me salía y lo tuve que buscar en chatgpt y 
-aún así no me funciona */
-.tooltip {
-   ;
-}
-
-/* Lo del tooltip no me salía y lo tuve que buscar en chatgpt y 
-aún así no me funciona */
-.tooltip-btn:hover + .tooltip {
+.tooltip:hover .tooltiptext{
     visibility: visible;
-    opacity: 1;
     
 }
-/* Lo del tooltip no me salía y lo tuve que buscar en chatgpt y 
-aún así no me funciona */
