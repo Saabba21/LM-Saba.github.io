@@ -1,7 +1,8 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    background-color: antiquewhite;
+
+    
 }
 h1
 {
@@ -9,42 +10,23 @@ h1
 }
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     min-height: 10vh;
-    max-height: 20vh;
+    max-height: 15vh;
     width: auto;
     border: 1px solid burlywood;
-    padding: .5em;
-    margin: .5em;
     background-color: burlywood;
 }
 
-img{
-    display: flex;
-    min-height: 120px;
-    max-height: 150px;
-    
-    justify-content: left;
-}
-aside{
-    min-height: 20vh;
-    min-width: 10vw; 
-    max-width: 15vw;
-    display: flex;
-    
-    padding: .5em;
-    margin: .5em;
-
-    
-}
 footer{
     display: flex;
     flex-direction: row;
     justify-content:right;
-    
     padding: .5em;
-    margin: .5em;
+    
     min-height: 5vh;
+    max-height: 5vh;
     background-color: rgba(114, 56, 14, 0.322);
     
     
@@ -55,34 +37,49 @@ html {
     font-style: normal;
   }
 
-article{
-    
-    padding: .5em;
-    margin: .5em;
-    display: flex;
-    min-height: 67vh;
-    max-width: 85vw;
-    background-color: #6b1c0970;
-  }
-section{
-    min-height: 50vh;
-    display: flex;
-    justify-content: space-between;
-}
 nav ul{
-    width: 85vw;
+    width: 100vw;
+    background-color: antiquewhite;
     display: flex;
-    list-style: none;
+    align-items: center;
     justify-content: space-around;
-    min-height: 3vh;
+    
+    list-style: none;
+    min-height: 2vw;
+}
+nav ul li a{
+    text-decoration-line:none;
+    color:rgb(168, 80, 21);
 }
 
-.productos{
-    
-    min-height: 75vh;
-
-    
+main{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    min-height: 80vh;
+    max-height: 80vh;
     align-items: center;
+    padding: 1em;
+    background-color: bisque;
+ 
+}
+.polaroid{
+    border: 20px solid gainsboro;
+    border-bottom: 80px solid gainsboro;
+    max-width: 30vw;
+    min-width: auto;
+    box-shadow: 10px 10px 13px -3px rgba(64,38,66,0.82);
+}
+.foto figcaption{
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    text-align: center; 
+    margin-top: 20px; 
+    
+    font-style: italic;
+}
+.foto a{
+    text-decoration: none;
 }
