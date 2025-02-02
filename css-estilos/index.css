@@ -10,7 +10,7 @@ header{
     display: flex;
     justify-content: space-between;
     min-height: 10vh;
-    max-height: 20vh;
+    max-height: 20vh; /*Intenta no limitar los contenedores a una altura máxima o tendrás problemas de desbordamiento*/
     width: auto;
     align-items: center;
     padding: .5em;
@@ -118,7 +118,7 @@ background: linear-gradient(328deg, rgba(75,69,167,1) 0%, rgba(255,255,255,1) 56
     visibility: hidden;
     
 }
-.tooltip:hover .tooltiptext{
+.tooltip:hover .tooltiptext{ /*Como la capa tooltip y la capa tooltiptext en tu html son hermanos tienes que usar el selector +*/
     visibility: visible;
     
 }
